@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<title>404</title>
+{% if error %}
+<h1>Page Not Found.</h1>
+<p>Error message: <br>{{error}}.<p>
+{% else %}
+<h1>Page Not Found.</h1>
+<p>No Error message.</p>
+{% endif %}

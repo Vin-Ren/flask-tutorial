@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<title>Welcome to the Cookies demonstration page</title>
+{% if username %}
+<h1>Reading Cookies.</h1>
+<p>Your cookies says you're {{username}}.<p>
+{% else %}
+<h1>Setting/Storing Cookies.</h1>
+<p>Hello, seems like you're setting your cookies?</p>
+{% endif %}
